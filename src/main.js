@@ -1,5 +1,4 @@
-function add (a, b){
-  return a + b
-}
+import { createApp } from 'vue'
+import App from './App.vue'
 
-console.log(add(1, 2));
+createApp(App).mount('#app')
